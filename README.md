@@ -118,8 +118,8 @@ Splines were explored early on but replaced by EasyRoads3D for this flat track. 
 
 <img src="ebu2_sim1.png" width="400"/>
 <img src="ebu2_sim2.png" width="400"/>
-<img src="ebu2_sim3.png" width="400"/>
 
+> **Note:** One of the buildings visible in the reference photos was intentionally removed from the Unity simulation. When driving the track and viewing from a top-down perspective, the building would obstruct the camera's view of the track, making it difficult to navigate.
 
 ---
 
