@@ -4,25 +4,36 @@
 
 **Team:** Jing, Matt, Xane, and Lavar | UCSD Jacobs School of Engineering
 
+<img src="team13_image31.png" width="400"/>
+
 ---
 
 ## Overview
 
-<img src="team13_image31.png" width="400"/>
-
-This project aimed to create a realistic simulation of the EBU2 Courtyard racing track for use with the Donkey Car simulator (DonkeySim), built in Unity.
+This project aimed to create a realistic simulation of the EBU2 Courtyard racing track for use with the Donkey Car simulator (DonkeySim), built in Unity. We successfully delivered an accurate, driveable representation of the track complete with the surrounding EBU2 courtyard environment including the building, umbrellas, trees, and other landmarks.
 
 ---
 
-## Goals
+## Getting Started
 
-**Must Have**
-- Accurately mapped representation of the racetrack in Unity
+Before opening Unity, clone the sdsandbox repo which provides the base DonkeySim Unity project:
 
-**Nice to Have**
-- Documentation
-- Start integration of track into DonkeySim
-- Map includes courtyard, EBU2 building, umbrellas, etc.
+```bash
+git clone https://github.com/tawnkramer/sdsandbox/
+```
+
+Open the cloned project in Unity. This gives you the DonkeyCar prefab, ScenePrefab, camera sensor, and all other simulator assets needed to build and test the track.
+
+---
+
+## Goals & What We Achieved
+
+| Goal | Status |
+|---|---|
+| Accurately mapped representation of racetrack in Unity | ✅ Done |
+| Documentation | ✅ Done |
+| Start integration of track into DonkeySim | ✅ Done |
+| Map includes courtyard, EBU2 building, umbrellas, etc. | ✅ Done |
 
 ---
 
@@ -42,26 +53,10 @@ Since our core goal was always to have an accurate track map, we pivoted to buil
 
 ---
 
-## Accomplishments
-
-- Created a working, accurate representation of the racetrack in Unity
-- Mapped the track's dimensions and visuals accurately using overhead photos
-- Built out surrounding environment including the EBU2 building, courtyard, umbrellas, trees, and other landmarks
-
----
-
-## How We Solved Issues
-
-- Adapted deliverables for the project quickly when original goals proved too difficult
-- Communicated clearly during weekly presentations when goals with ORB-SLAM became more difficult than anticipated
-
----
-
 ## Future Direction
 
-- Make track more accurate
-  - Build out the courtyard area and make it driveable
-  - Use ORB-SLAM 3 data (x, y, z position + quaternions) to trace out the spline in Unity
+- Build out the courtyard area and make it fully driveable
+- Use ORB-SLAM 3 data (x, y, z position + quaternions) to trace out the spline in Unity for a more precise track representation
 
 ---
 
@@ -69,6 +64,7 @@ Since our core goal was always to have an accurate track map, we pivoted to buil
 
 - Robotics projects like ORB-SLAM have many moving parts — it is difficult to anticipate all the hardware/software requirements necessary to complete initial goals.
 - When running into unexpected roadblocks, it is important to improvise quickly and reshape goals to match timelines.
+- Sometimes the simplest approach (overhead photo + Unity) is the most effective one.
 
 ---
 
@@ -88,18 +84,8 @@ This is the method that worked best for recreating the EBU2 Courtyard track.
 8. **Test in DonkeySim** by placing the Donkey Car on the track and verifying the camera POV looks correct
 
 **Tips:**
-- Use the ScenePrefab from the DonkeyCar Simulator repo — it provides all the base DonkeySim assets out of the box
+- Use the ScenePrefab from the sdsandbox repo — it provides all the base DonkeySim assets out of the box
 - Match node placement carefully to the overhead photo to preserve track shape accuracy
-
-**Setup — Cloning the Simulator Repo**
-
-Before starting in Unity, clone the sdsandbox repo which provides the base DonkeySim Unity project:
-
-```bash
-git clone https://github.com/tawnkramer/sdsandbox/
-```
-
-Open the cloned project in Unity. This gives you the DonkeyCar prefab, ScenePrefab, camera sensor, and all other simulator assets needed to build and test the track.
 
 ---
 
