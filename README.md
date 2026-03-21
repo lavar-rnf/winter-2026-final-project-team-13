@@ -106,6 +106,23 @@ Splines were explored early on but replaced by EasyRoads3D for this flat track. 
 
 ---
 
+## Reference vs. Final Product
+
+### Reference Photos (Real EBU2 Courtyard)
+
+<img src="ebu2_build1.png" width="400"/>
+<img src="ebu2_build2.png" width="400"/>
+<img src="ebu2_build3.png" width="400"/>
+
+### Final Product (Unity Simulation)
+
+<img src="ebu2_sim1.png" width="400"/>
+<img src="ebu2_sim2.png" width="400"/>
+
+> **Note:** One of the buildings visible in the real life of ebu2 was intentionally removed from the Unity simulation. When driving the track and viewing from a top-down perspective, the building would obstruct the camera's view of the track, making it difficult to navigate.
+
+---
+
 ## Known Issues & What Can Go Wrong
 
 ### Image Warping from Non-Overhead Shots
