@@ -1,6 +1,6 @@
 # Creating a Realistic Donkey Sim Track
 
-**ECE/MAE 148 Final Project — ECE 148 WI 2026 | Team 13**
+**MAE 148 Final Project — ECE 148 WI 2026 | Team 13**
 
 **Team:** Jing, Matt, Xane, and Lavar | UCSD Jacobs School of Engineering
 
@@ -8,7 +8,7 @@
 
 ## Overview
 
-![Team 13 Car](team13_image31.png)
+<img src="team13_image31.png" width="400"/>
 
 This project aimed to create a realistic simulation of the EBU2 Courtyard racing track for use with the Donkey Car simulator (DonkeySim), built in Unity.
 
@@ -156,4 +156,3 @@ Splines were explored early on but replaced by EasyRoads3D for this flat track. 
 - [EasyRoads3D - Free Version](https://assetstore.unity.com/packages/tools/terrain/easyroads3d-free-v3-987)
 - Trees (Unity Asset Store)
 - [Real-Time Appearance-Based Mapping (RTAB)](http://introlab.github.io/rtabmap/)
-
