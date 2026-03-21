@@ -1,9 +1,6 @@
-# winter-2026-final-project-team-13
-Artifacts for MAE 148 final project
-
 # Creating a Realistic Donkey Sim Track
 
-**MAE 148 Final Project — ECE 148 WI 2026 | Team 13**
+**ECE/MAE 148 Final Project — ECE 148 WI 2026 | Team 13**
 
 **Team:** Jing, Matt, Xane, and Lavar | UCSD Jacobs School of Engineering
 
